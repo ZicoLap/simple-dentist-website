@@ -1,0 +1,11 @@
+pages:
+  stage: deploy
+  tags:
+    - alpine
+  script:
+  - echo 'No builder needed...'
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
